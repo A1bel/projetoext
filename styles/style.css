@@ -19,6 +19,9 @@ ol,
 li {
   margin-left: 10px;
 }
+li p {
+  margin-top: 3px;
+}
 
 body {
   margin: 0;
@@ -70,9 +73,15 @@ li {
   padding-left: 10px;
   padding-right: 10px;
 }
-
+.mt-20 {
+  margin-top: 20px;
+}
 .mb-10 {
   margin-bottom: 15px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
 }
 /*Estilos das pags html, css e scratch*/
 .text_content_strong {
@@ -240,6 +249,37 @@ pre code .hljs-tag {
   color: #690ceb !important;
 }
 
+#videosHtml,
+#videosCss,
+#videosScratch {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.videos-container {
+  display: flex;
+  background-color: #efeaea;
+  padding: 15px;
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.videos {
+  max-width: 700px;
+}
+
+.videos-carrossel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.videos-carrossel img {
+  max-width: 200px;
+}
+
 /* -------------------------------- */
 /*            HEADER                */
 /* -------------------------------- */
@@ -247,7 +287,8 @@ pre code .hljs-tag {
 header {
   padding: 20px 50px;
   /* background-color: #3f3f5a; Azul acinzentado escuro para o navbar */
-  background-color: #111111;
+  /* background-color: #111111; */
+  background-color: #21213c;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -360,7 +401,8 @@ footer {
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   /* background-color: #282928; */
-  background-color: #111111;
+  /* background-color: #111111; */
+  background-color: #21213c;
 
   color: white;
   padding: 40px 10px;
