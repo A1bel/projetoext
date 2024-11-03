@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/styles/style.css" />
+  <link rel="stylesheet" href="../static/styles/style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css" />
   <!--Adicionei uma biblioteca para dar enfase no pre code para mostrar o código no site-->
@@ -18,12 +18,12 @@
 <body id="css">
   <header>
     <nav class="header-nav">
-      <a class="nav-item" href="/index.html">
+      <a class="nav-item" href="../templates/index.html">
         <h1>Byte Club</h1>
       </a>
-      <a class="nav-item" href="/pages/web.html">HTML</a>
+      <a class="nav-item" href="web.html">HTML</a>
       <a class="nav-item" href="#">CSS</a>
-      <a class="nav-item" href="/pages/scratch.html">Scratch</a>
+      <a class="nav-item" href="scratch.html">Scratch</a>
     </nav>
     <div class="header-search">
       <input type="text" id="inptPesquisa" placeholder="Pesquisar..." />
@@ -138,7 +138,7 @@
           </ol>
         </ul>
         <p class="text_content_medium">No exemplo abaixo podemos ver ilustrado o modelo de caixa CSS .</p>
-        <img src="../images/box-model.png" alt="imagem do modelo de caixa">
+        <img src="/static/images/box-model.png" alt="imagem do modelo de caixa">
 
         <p class="text_content_medium">Precisamos entender o modelo em caixa pois é através dele que podemos controlar nosso layout e verificar onde as caixas melhor se encaixam.</p>
         <ul class="text_content_medium">
@@ -347,7 +347,7 @@
             <p>
               Vou deixar novamente a imagem do modelo caixa do CSS. De maneira que fique mais claro, a parte do meio em lilás o content, nada mais é que o contéudo que estamos estilizando (podemos usar o exemplo da tag <code>&lt;p&gt;</code> do HTML, onde escrevemos uma frase “Frase exemplo estilizada”), fora dessa caixa temos outra caixa nomeada de padding que seria o espaçamento da caixa conteúdo com os demais itens, na caixa em azul border, simoboliza a borda da nossa caixa conteúdo que pode ser estilizada definindo uma borda sólida ao redor, e por fim a última caixa, em laranja, define a margem de espaçamento que vai ser definido para separar esse caixa principal de outra caixa estilizada.
             </p>
-            <img src="../images/box-model.png" alt="imagem do modelo de caixa">
+            <img src="/static/images/box-model.png" alt="imagem do modelo de caixa">
           </li>
 
           <li id="Flex">Flexbox
@@ -375,7 +375,7 @@
                 <p>
                   Na imagem a seguir podemos ver duas linhas de intens na horizontal representado pelo “row”, que traduzindo seria linha, uma linha da esquerda para direita e no “row-reverse”, linha invertida, seria a linha da esquerda para direita. Abaixo temos o “column” que significa coluna, onde define a direção de baixo para cima e ao lado a “column-reverse”, coluna invertida, que define a direção de baixo para cima. Esses são as direções que podemos usar no nosso flex-direction.
                 </p>
-                <img src="../images/flex-direction.png" alt="imagem explicativa sobre flex direction">
+                <img src="/static/images/flex-direction.png" alt="imagem explicativa sobre flex direction">
               </li>
 
               <li>Itens flex
@@ -394,7 +394,7 @@
                     </ol>
 
                     <p>Essas opções ajudam a controlar como os itens ficam dispostos no container flex, tornando mais fácil criar layouts organizados.</p>
-                    <img src="../images/Justify-content.png" alt=" imagem explicativa sobre justify content">
+                    <img src="/static/images/Justify-content.png" alt=" imagem explicativa sobre justify content">
                   </li>
 
                   <li>Align-content
@@ -406,7 +406,7 @@
                       <li>Ajuda a dar um visual organizado e equilibrado para seus elementos na página.</li>
                     </ul>
                     <p>Com align-content, você pode ajustar facilmente como seus itens ficam dispostos, criando layouts mais bonitos e organizados.</p>
-                    <img src="../images/align-content.png" alt="imagem explicativa sobre align content">
+                    <img src="/static/images/align-content.png" alt="imagem explicativa sobre align content">
                   </li>
 
                   <li>Align-items
@@ -416,7 +416,7 @@
                       <li>Se os itens estão em uma coluna (column), ele ajusta sua posição horizontal.</li>
                     </ul>
                     <p>Com essa propriedade, você pode facilmente alinhar seus elementos de forma precisa e flexível.</p>
-                    <img src="../images/align-items.png" alt="imagemm explicativa sobre align items">
+                    <img src="/static/images/align-items.png" alt="imagemm explicativa sobre align items">
                   </li>
                 </ol>
               </li>
@@ -426,7 +426,7 @@
 
           <li id="Gap">Gap
             <p>Gap é um recurso do CSS Flexbox que ajuda a criar espaços entre os itens dentro de uma caixa flex. Ele torna mais fácil organizar o layout da página, adicionando espaços iguais entre os elementos. Esses espaços podem ser tanto na direção horizontal quanto na vertical.</p>
-            <img src="../images/gap.png" alt="imagem explicativa sobre gap">
+            <img src="/static/images/gap.png" alt="imagem explicativa sobre gap">
           </li>
 
         </ul>
@@ -437,18 +437,18 @@
         <p class="text_content_medium">
           Unir HTML e CSS refere-se ao processo de integração entre a estrutura HTML e os estilos CSS para criar páginas web visualmente atraentes e funcionais. Isso envolve a aplicação de regras de estilo CSS aos elementos HTML para controlar sua aparência e layout.
         </p>
-        <img src="../images/uniting.png" alt="imagem demonstrativa sobre html e css">
+        <img src="/static/images/uniting.png" alt="imagem demonstrativa sobre html e css">
 
       </div>
       <p id="videosCss" class="text_content_strong">
         <strong>Videos</strong>
       </p>
       <div class="videos-container">
-        <img class="videos" src="../images/videoCss.jpeg" alt="">
+        <img class="videos" src="/static/images/videoCss.jpeg" alt="">
         <div class="videos-carrossel">
-          <img src="../images/videoCss.jpeg" alt="">
-          <img src="../images/videoCss.jpeg" alt="">
-          <img src="../images/videoCss.jpeg" alt="">
+          <img src="/static/images/videoCss.jpeg" alt="">
+          <img src="/static/images/videoHtml.jpeg" alt="">
+          <img src="/static/images/videoScratch.jpeg" alt="">
         </div>
       </div>
     </section>
@@ -462,9 +462,9 @@
   <footer>
     <div>
       <h3>Cursos</h3>
-      <a href="./web.html">HTML</a>
+      <a href="web.html">HTML</a>
       <a href="#">CSS</a>
-      <a href="./scratch.html">Scratch</a>
+      <a href="scratch.html">Scratch</a>
     </div>
 
     <div>
@@ -481,7 +481,7 @@
     </div>
   </footer>
 
-  <script src="../scripts/main.js"></script>
+  <script src="../static/scripts/main.js"></script>
 </body>
 
 </html>
